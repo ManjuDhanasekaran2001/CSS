@@ -1,0 +1,33 @@
+
+body{
+    background-color: bisque;
+}
+.rounded img{
+    border-radius: 0.5em;
+}
+.circle img{
+    border-radius: 50%;
+}
+.bordered img{
+    padding: 0.5em;
+    border: 0.01em solid grey;
+}
+.text{
+    position: relative;
+   
+  text-align: center;
+  color: red;
+
+}
+
+.content{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
